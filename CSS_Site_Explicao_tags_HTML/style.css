@@ -1,0 +1,68 @@
+* {
+	font-family: Arial, serif;
+}
+
+body {
+	background-color: white;
+}
+
+h1 {
+	font-size: 3.5em;
+}
+.cabecalho {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.sub-titulo {
+	font-size: 2.5em;
+	text-align: center;
+	text-weight: bolder;
+	text-align: center;
+	color: salmon
+}
+
+h3 {
+	font-size: 1.3em;
+	padding: 10px;
+}
+
+div {
+	margin: auto;
+	box-shadow: 0px 0px 10px 0px;
+	background-color: white;
+	width: 95vw;
+}
+
+.rodape {
+	padding: 30px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	text-weight: bolder;
+	text-decoration: underline;
+	font-size: 1.2em;
+}
+
+
+button {
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: green;
+	color: white;
+	
+}
+
+a {
+	color: orange;
+}
+
+a:hover {
+	color: darkorange
+	border: none;
+	
+}
