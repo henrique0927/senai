@@ -1,0 +1,90 @@
+@import 'UTF-8';
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/patinhas-cinza-bege-fundo-branco.jpeg);
+}
+
+.cabecalho {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 0px 1px 0px;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+main {
+    width: 70%; /* Ou qualquer largura desejada */
+    margin: 0 auto; /* Isso centralizará o main horizontalmente */
+    text-align: center; /* Isso centralizará o conteúdo dentro do main */
+}
+
+.paragrafo {
+    line-height: 1.5;
+    padding: 100px;
+    font-size: 2em;
+    color: rgb(65, 65, 65);
+    font-weight: bolder;
+    marker: salmon;
+}
+
+
+.titulo-cabecalho {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.titulo-cabecalho {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.subtitulo-cabecalho {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.titulo-conteudo-1 {
+    padding: 50px;
+    font-size: 2.5em;
+    color: rgb(240, 95, 79);
+    font-weight: bold;
+}
+
+.img {
+    width: 40vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px;
+}
+
+.paragrafo-universal {
+    line-height: 1.5;
+    padding: 50px;
+    font-size: 1.5em;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: rgba(226, 16, 16, 0.767);
+}
+
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    color: white;
+    box-shadow: 0px 0px 1px 0px;
+    text-align: center;
+}
