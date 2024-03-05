@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.conteudo-cabecalho {
+    position: relative;
+    background-image: url(/img/Hamilton_-_2016_Monaco_GP_02.jpg);
+    background-position: right center;
+    background-size: cover;
+    height: 375px;
+}
+
+.navegacao-topo {
+    background-color: black;
+}
+
+.navegacao-titulo {
+    position: absolute; /* Adicionando posição absoluta */
+    top: 140px; /* Ajuste a posição superior conforme necessário */
+    left: 0; /* Ajuste a posição esquerda conforme necessário */
+    right: 0; /* Ajuste a posição direita conforme necessário */
+    font-size: 6em;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    z-index: 1; /* Para garantir que o título esteja acima do background */
+}
+
+.logo-nav::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Cor preta com 50% de opacidade */
+}
+
+.img-logo-henrique {
+    display: inline-block;
+    max-height: 70px;
+    max-width: 225px;
+    padding: 8px 4px 8px 12px;
+    vertical-align: middle;
+}
+
+.texto-henrique-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute; /* Adicionando posição absoluta */
+    top: 17px; /* Ajuste a posição superior conforme necessário */
+    left: 0; /* Ajuste a posição esquerda conforme necessário */
+    right: 0; /* Ajuste a posição direita conforme necessário */
+    font-size: 1.8em;
+    color: white;
+    font-weight: 300;
+    line-height: 1.333;
+    margin-left: 150px;
+    font-weight: 400;
+}
+
+.texto-apresentacao-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute; /* Adicionando posição absoluta */
+    top: 22px; /* Ajuste a posição superior conforme necessário */
+    left: 0; /* Ajuste a posição esquerda conforme necessário */
+    right: 0; /* Ajuste a posição direita conforme necessário */
+    font-size: 1.4em;
+    color: white;
+    font-weight: 300;
+    line-height: 1.333;
+    margin-left: 1500px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.texto-inicio-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute; /* Adicionando posição absoluta */
+    top: 20px; /* Ajuste a posição superior conforme necessário */
+    left: 0; /* Ajuste a posição esquerda conforme necessário */
+    right: 0; /* Ajuste a posição direita conforme necessário */
+    font-size: 1.6em;
+    color: white;
+    font-weight: 300;
+    line-height: 1.333;
+    margin-left: 1700px;
+    font-weight: 400;
+}
+
+
