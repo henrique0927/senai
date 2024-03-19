@@ -1,0 +1,52 @@
+/* Confg. gerais */
+
+@import "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4472C4;
+}
+
+.main {
+    margin: 20px;
+    width: 40.5vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.no-flex {
+    display: block;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ye {
+    padding: 100px;
+    margin: 30px;
+    background-color: #FFFF00;
+}
+
+.space-2-right {
+    padding-right: 18.5vw;
+    background-color: #FFFF00;
+}
+
+.space-2-bottom {
+    padding-bottom: 18.5vh;
+    background-color: #FFFF00;
+}
+
+.space-3-bottom {
+    padding-bottom: 28.5vh;
+    background-color: #FFFF00;
+}
